@@ -1,0 +1,213 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Product | PriceList</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .content {
+            width: 320px;
+            padding: 0px;
+            margin: 0;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        .footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: right;
+        }
+
+        .active {
+            background-color: #173A5F;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #173A5F;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #173A5F;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: grey;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li style="float:left"><a class="active" href="home.html">PriceList</a></li>
+        <li><a href="about.html">Tentang Kami</a></li>
+        <li><a href="contact.html">Hubungi Kami</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Produk</a>
+            <div class="dropdown-content">
+                <a href="laptop.html">Laptop</a>
+                <a href="tv.html">TV</a>
+                <a href="tablet.html">Tablet</a>
+                <a href="smartphone.html">Smartphone</a>
+            </div>
+        </li>
+        <li><a href="home.html">Home</a></li>
+    </ul>
+    <h3 style="text-align: left;">Laptop</h3>
+    <div class="row">
+        <div class="column">
+            <table style="text-align: left;">
+                <tr>
+                        <h3 style="color: #173A5F;"> Lenovo IdeaPad Slim 3 | Ryzen 3-5300U </h2>
+                </tr>
+                <tr>
+                    <td rowspan="5"><img src="img/97662_LL_3.jpg" alt="image1" width="200px" height="200px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="color: #173A5F">Harga :</p>
+                    </td>
+                <tr>
+                    <td><button>Rp 8.000.000</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="color: 173A5F;">Spesifikasi Produk :</p>
+                        <table style="text-align: left;">
+                            <tr>
+                                <th><small>Prosesor </small></th>
+                                <th><small>:</small></th>
+                                <td><small>Ryzen 3</small></th>
+                                <th><small>RAM </small></th>
+                                <th><small>:</small></th>
+                                <td><small>8GB</small></th>
+                            </tr>
+
+                            <tr>
+                                <th><small>Penyimpanan </small></th>
+                                <th><small>:</small></th>
+                                <td><small>512GB SSD</small></th>
+                                <th><small>Ukuran Layar </small></th>
+                                <th><small>:</small></th>
+                                <td><small>14 Inch</small></th>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="column">
+            <table style="text-align: left;">
+                <tr>
+                        <h3 style="color: #173A5F;"> Infinix INBook X1 | Core i3-1005G1 </h2>
+                </tr>
+                <tr>
+                    <td rowspan="5"><img src="img/96202_LL_1.jpg" alt="image1" width="200px" height="200px"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="color: #173A5F">Harga :</p>
+                    </td>
+                <tr>
+                    <td><button>Rp 5.049.000</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="color: 173A5F;">Spesifikasi Produk :</p>
+                        <table style="text-align: left;">
+                            <tr>
+                                <th><small>Prosesor </small></th>
+                                <th><small>:</small></th>
+                                <td><small>Core i3-1005G1</small></th>
+                                <th><small>RAM </small></th>
+                                <th><small>:</small></th>
+                                <td><small>8GB</small></th>
+                            </tr>
+
+                            <tr>
+                                <th><small>Penyimpanan </small></th>
+                                <th><small>:</small></th>
+                                <td><small>256GB SSD</small></th>
+                                <th><small>Ukuran Layar </small></th>
+                                <th><small>:</small></th>
+                                <td><small>14 Inch</small></th>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="footer">
+        <h6>&copy2022 | PriceList</h6>
+    </div>
+</body>
+
+</html>
